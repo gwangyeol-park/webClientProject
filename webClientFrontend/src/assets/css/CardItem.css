@@ -1,0 +1,21 @@
+.card_img_div {
+    text-align: center;
+}
+
+.card_img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.card_title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5%;
+}
+
+.card_summary {
+    font-size: 11px;
+    margin: 3%;
+}

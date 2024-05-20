@@ -1,0 +1,33 @@
+.nav {
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.title {
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.login {
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.signup {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.title:hover, .login:hover, .signup:hover {
+    text-decoration: underline;
+}

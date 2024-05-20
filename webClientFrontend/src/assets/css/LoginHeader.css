@@ -1,0 +1,17 @@
+.my_page {
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.logout {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.my_page:hover, .logout:hover {
+    text-decoration: underline;
+}

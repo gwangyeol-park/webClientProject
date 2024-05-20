@@ -1,0 +1,46 @@
+.login_container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+}
+
+#login_email {
+    font-size: 17px;
+    height: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#login_password {
+    font-size: 17px;
+    height: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.summit_button {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background: #eee;
+    transition: all 0.3s;
+}
+
+.summit_button:hover {
+    background: black;
+    opacity: 0.5;
+    color: white;
+}
